@@ -1,86 +1,99 @@
 import java.util.*;
 class Person
 {
-	String name, address, gender;
-	int age;
-	Person(String name, String gender, String address, int age)
-	{
-		this.name = name;
-		this.gender = gender;
-		this.address = address;
-		this.age = age;
-	}
-	public void show()
-	{
-		System.out.println("address: " + address + "\ngender: " + gender + "\nage: " + age);
+String name;
+String gender;
+String address;
+int age;
+public Person(String n,String g,String a,int age)
+{
+this.name=n;
+this.gender=g;
+this.address=a;
+this.age=age;
+}
+public void show(){
+		System.out.println("name:" +name+ "\naddress: " + address + "\ngender: " + gender + "\nage: " + age);
 	}
 }
 class Employee extends Person
 {
-	int empid;
-	String name;
-	String qualification;
-	int salary;
-	Employee(int empid, String name, String qual, int salary, String p_gender, String p_address, int p_age)
-	{
-		super(name, p_gender, p_address, p_age);
-		this.empid = empid;
-		this.name = name;
-		this.qualification = qual;
-		this.salary = salary;
-	}
-
-	public void show()
-	{
-		System.out.println("empid: " + empid + "\name: " + name + "\nqual: " + qualification + "\nsalary: " + salary);
-		super.show();
+int empid;
+String cmp_name;
+String qualification;
+int salary;
+public Employee(String P_n,String P_g,String P_a,int P_age,int empid,String cmp_name,String q,int s)
+{
+super(P_n,P_g,P_a,P_age);
+this.empid=empid;
+this.cmp_name=cmp_name;
+this.qualification=q;
+this.salary=s;
+}
+public void show(){
+                super.show();
+		System.out.println("emp_id:" +empid+ "\ncmp_name: " + cmp_name + "\nqualification: " + qualification + "\nsalary: " + salary);
 	}
 }
 class Teacher extends Employee
 {
-	String subject;
-	String department;
-	int teacher_id;
-	Teacher(int teacher_id, String department, String subject, int empid, String e_name, String e_qual, int e_salary, String p_gender, String p_address, int p_age)
-	{
-		super(empid, e_name, e_qual, e_salary, p_gender, p_address, p_age);
-		this.teacher_id = teacher_id;
-		this.department = department;
-		this.subject = subject;
-	}
-	public void show()
-	{
-		System.out.println("\nDetails are \nsubject: " + subject + "\ndepartment: " + department + "\nteacherid: " + teacher_id);
-		super.show();
+String subject;
+String dept;
+int teacher_id;
+public Teacher(String P_n,String P_g,String P_a,int P_age,int E_empid,String E_cmp_name,String E_q,int E_s, int id,String s,String dept)
+{
+super(P_n,P_g,P_a,P_age,E_empid,E_cmp_name,E_q,E_s);
+this.subject=s;
+this.dept=dept;
+this.teacher_id=id;
+}
+public void show(){
+                super.show();
+		System.out.println("\nsubject:" +subject+ "\ndept: " + dept + "\nteacher_id: " + teacher_id);
 	}
 }
-
-class Inheritance
+public class Inheritance
 {
-	public static void main(String args[])
-	{
-		Scanner sc = new Scanner(System.in);
-		System.out.println("Empid: ");
-		int empid = Integer.parseInt(sc.nextLine());
-		System.out.println("Teacherid: ");
-		int teacherid = Integer.parseInt(sc.nextLine());		
-		System.out.println("Name: ");
-		String name = sc.nextLine();
-		System.out.println("Gender: ");
-		String gender = sc.nextLine();
-		System.out.println("Address: ");
-		String address = sc.nextLine();
-		System.out.println("Age: ");
-		int age = Integer.parseInt(sc.nextLine());
-		System.out.println("Qualification: ");
-		String qualification = sc.nextLine();
-		System.out.println("Salary: ");
-		int salary = Integer.parseInt(sc.nextLine());
-		System.out.println("Subject: ");
-		String subject = sc.nextLine();
-		System.out.println("Department: ");
-		String department = sc.nextLine();
-		Teacher th = new Teacher(teacherid, department, subject, empid, name, qualification, salary, gender, address, age);
-		th.show();
-	}
+public static void main(String args[])
+{
+Scanner obj=new Scanner(System.in);
+
+System.out.println("Enter the number of Teachers\n");
+int n=obj.nextInt();
+Teacher array[]=new Teacher[n];
+for(int i=0;i<n;i++)
+{
+System.out.println("enter the name of teacher\n");
+String name=obj.next();
+System.out.println("enter the gender of teacher\n");
+String g=obj.next();
+System.out.println("enter the address of teacher\n");
+String addr=obj.next();
+System.out.println("enter the age of teacher\n");
+int age=obj.nextInt();
+
+System.out.println("enter the emp_id of teacher\n");
+int emp_id=obj.nextInt();
+System.out.println("enter the company name of teacher\n");
+String cmp_name=obj.next();
+System.out.println("enter the qualification of teacher\n");
+String q=obj.next();
+System.out.println("enter the salary of teacher\n");
+int s=obj.nextInt();
+
+
+System.out.println("Enter the id\n");
+int id=obj.nextInt();
+System.out.println("Enter the subject\n");
+String subject=obj.next();
+System.out.println("Enter the department\n");
+String dept=obj.next();
+array[i] = new Teacher(name,g,addr,age,emp_id,cmp_name,q,s,id,subject,dept);
+}
+System.out.println("Details of Persons\n");
+for(Person p:array)
+{
+p.show();
+}
+}
 }
