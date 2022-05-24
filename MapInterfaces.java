@@ -24,9 +24,9 @@ class MapInterfaces
         	System.out.println("Updated Map " + hm3);
 		System.out.println("Removing Elements");	
           	Map<Integer, String> hm4= new HashMap<Integer, String>();
-  		hm4.put(new Integer(1), "Akhil");
+  		hm4.put(new Integer(1), "Thasni");
         	hm4.put(new Integer(2), "Jabir");
-        	hm4.put(new Integer(3), "Hari");
+        	hm4.put(new Integer(3), "Reshma");
         	hm4.put(new Integer(4), "Vaisakh");
  		System.out.println(hm4);
   		hm4.remove(new Integer(4));
@@ -35,3 +35,16 @@ class MapInterfaces
 		
 	}
 }
+
+output
+------
+
+Adding Elements
+{1=Adding 1, 2=Adding 2, 3=Adding 3}
+{1=value 1, 2=value 2, 3=value 3}
+Changing Elements
+Initial Map {1=ram, 2=lost, 3=raj}
+Updated Map {1=ram, 2=For, 3=raj}
+Removing Elements
+{1=Thasni, 2=Jabir, 3=Reshma, 4=Vaisakh}
+{1=Thasni, 2=Jabir, 3=Reshma}
