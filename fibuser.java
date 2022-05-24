@@ -16,4 +16,13 @@ class fibuser
 			second=sum;
 		}
 	}
-}		
+}
+
+output
+-----
+
+Enter the limit:
+10
+Fibanocci series of 10 numbers:
+0  1  1  2  3  5  8  13  21  34
+		

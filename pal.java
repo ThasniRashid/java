@@ -24,4 +24,10 @@ class pal
 			System.out.println("The string "+str+" is not palindrome");
 	}
 }
+
+output
+------
+
+Enter the string: amma
+The string amma is a palindrome
 	

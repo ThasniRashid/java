@@ -39,3 +39,26 @@ class addMatrix
  
 	}
 }
+
+output
+------
+
+Enter the number of rows: 2
+Enter the number of columns: 2
+Enter the elements of 1st matrix:
+2
+3
+
+5
+8
+
+Enter the elements of 2nd matrix:
+1
+6
+
+3
+4
+
+Sum of matrices:
+3       9
+8       12

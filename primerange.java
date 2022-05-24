@@ -26,5 +26,11 @@ class primerange
 		}
 	}
 }		
-		
+
+output
+------
+
+Enter 2 limits: 2
+20
+Prime numbers between 2 to 20 are: 2 3 5 7 11 13 17 19		
 	

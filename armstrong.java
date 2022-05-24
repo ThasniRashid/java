@@ -32,4 +32,9 @@ class armstrong
 		isArmstrong(num);
 	}
 }
-		
+
+output
+------
+
+Enter the number: 370
+its Armstrong	

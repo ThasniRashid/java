@@ -16,4 +16,10 @@ class swap
 	}
 }
 	
-	
+output
+------
+
+Enter the value of A: 12
+Enter the value of b: 25
+Value in A: 25
+Value in B: 12

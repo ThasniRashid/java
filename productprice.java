@@ -39,3 +39,21 @@ class productprice
 		prd[index].show();
 	}
 }
+
+output
+------
+
+Enter the details:
+product code1: 2
+product name1: pen
+product price 1: 10
+product code2: 4
+product name2: eraser
+product price 2: 3
+product code3: 5
+product name3: box
+product price 3: 45
+Product with lowest price is:
+Code = 4
+Name = eraser
+Price = 3.0

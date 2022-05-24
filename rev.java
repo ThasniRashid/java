@@ -17,3 +17,10 @@ class rev
 		System.out.println("Reverse of "+n+" is "+rev);
 	}
 }
+
+output
+------
+
+Enter a number:
+3987
+Reverse of 3987 is 7893
