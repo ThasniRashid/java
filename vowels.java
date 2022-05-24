@@ -21,5 +21,12 @@ class vowels
 		return count;
 	}
 }
+
+output
+------
+
+Enter the string:
+thasnirashid
+Number of vowels in the string : 4
 		
 		

@@ -17,3 +17,14 @@ class smallest
 		return Math.min(Math.min(x,y),z);
 	}
 }
+
+output
+------
+
+Enter the first number:
+3475
+Enter the second number:
+3156
+Enter the third number:
+3732
+The smallest value is 3156

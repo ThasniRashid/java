@@ -13,3 +13,11 @@ class array
 		System.out.println("Sorted string array: "+Arrays.toString(my_array2));
 	}
 }
+
+output
+------
+
+Original string numeric array: [101, 235, 111, 555, 107, 234, 869, 367]
+Sorted numeric array: [101, 107, 111, 234, 235, 367, 555, 869]
+Original string array: [java, python, php, c#, c, c++]
+Sorted string array: [c, c#, c++, java, php, python]

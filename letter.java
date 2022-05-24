@@ -38,6 +38,13 @@ class letter
 		System.out.println("other: "+other);
 	}
 }
-		
+
+output
+------
+
+The string is:........
+letter: 6
+number: 2
+other: 4		
 		
 		

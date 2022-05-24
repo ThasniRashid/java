@@ -19,4 +19,15 @@ class sumint
 		return((p+q)==r||(q+r)==p||(r+p)==q);
 	}
 }
-		
+
+output
+------
+
+Input the first number:
+345
+Input the second number:
+312
+Input the third number:
+657
+Sum of first two integers: 657
+The result is: true		
