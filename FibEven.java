@@ -36,5 +36,23 @@ public class FibEven
 		t2.start();
 	}
 }
+
+output
+------
+
+FibThread  -0
+EvenRangeThread --2
+EvenRangeThread --4
+EvenRangeThread --6
+EvenRangeThread --8
+EvenRangeThread --10
+FibThread  -1
+FibThread  -1
+FibThread  -2
+FibThread  -3
+FibThread  -5
+FibThread  -8
+FibThread  -13
+FibThread  -21
 		
 		

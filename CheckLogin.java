@@ -48,5 +48,24 @@ public class CheckLogin
 		}
 	}
 }
+
+output
+------
+
+Enter the username:
+thasnirashid
+Enter the password:
+hello
+Login successfull !!!
+The finally statement is excecuted
+
+Enter the username:
+thasnirashid
+Enter the password:
+hai
+PasswordException: Incorrect password
+Try correct password
+        at CheckLogin.main(CheckLogin.java:32)
+The finally statement is excecuted
 		
 				

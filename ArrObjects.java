@@ -65,4 +65,38 @@ public class ArrObjects
 		}
 	}
 }
-			
+
+Output
+------
+
+Enter the no:of employees :3
+Enter the employee details one by one
+Enter 0 employee details:
+Enter the employee id:
+123
+Enter the employee name:
+Thasni
+Enter the employee salary:
+50000
+Enter 1 employee details:
+Enter the employee id:
+12
+Enter the employee name:
+Reshma
+Enter the employee salary:
+56000
+Enter 2 employee details:
+Enter the employee id:
+100
+Enter the employee name:
+Jabir
+Enter the employee salary:
+60000
+Employees are:
+Emp Id= 123 Employee name= Thasni salary= 50000
+Emp Id= 12 Employee name= Reshma salary= 56000
+Emp Id= 100 Employee name= Jabir salary= 60000
+Enter the employee number to search: 123
+Employee found
+Emp Id= 123 Employee name= Thasni salary= 50000
+		

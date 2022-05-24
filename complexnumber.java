@@ -36,3 +36,14 @@ class complexnumber
         	result.show();
 	}
 }
+
+output
+------
+
+Complex no 1 Real: 5
+Complex no 1 Img: 3
+Complex no 2 Real: 2
+Complex no 2 Img: 1
+After addition
+Result is:
+Complex number = 7 + 4 i

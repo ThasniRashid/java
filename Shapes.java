@@ -33,5 +33,20 @@ public class Shapes
 	}
 }
 
+output
+------
+
+Enter the length:
+5
+Enter the breadth:
+4
+Enter the radius:
+5
+The area of the square is 25.0
+The area of the rectangle is 20.0
+The area of the circle is 78.5
+
+
+
 		
 	   

@@ -80,3 +80,36 @@ class Interface
 	}
 }
 
+output
+------
+
+Select Shape
+1.Rectangle 2.Circle 3.Exit
+1
+
+Enter the length of rectangle:
+5
+Enter the breadth of rectangle:
+4
+
+Area    : 20.0
+
+Perimeter       : 18.0
+
+Select Shape
+1.Rectangle 2.Circle 3.Exit
+2
+
+Enter the radius of circle:
+5
+
+Area    : 78.53981633974483
+
+Perimeter       : 31.41592653589793
+
+Select Shape
+1.Rectangle 2.Circle 3.Exit
+3
+
+Exiting.....
+

@@ -40,3 +40,22 @@ public class SignException
 		System.out.println("The average is: "+(sum/k));
 	}
 }
+
+output
+------
+
+Enter number of input no:s
+4
+Enter the numbers:
+3
+Enter the numbers:
+7
+Enter the numbers:
+-2
+Nmber is negative
+MyException
+Enter the numbers:
+9
+Enter the numbers:
+2
+The average is: 5

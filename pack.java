@@ -20,4 +20,17 @@ class pack
 		System.out.println("Area of square: "+t.area());
 	}
 }
-		
+
+output
+------
+
+Enter the side of the square:
+4
+Area of square: 16
+Enter the radius of circle:
+5
+Area of circle: 78.5
+Enter the base and height of the triangle:
+4
+5
+Area of square: 10.0	

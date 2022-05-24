@@ -19,3 +19,17 @@ class StringSort
 		System.out.print(Arrays.toString(str) + "\t");
 	}
 }
+
+output
+------
+
+Enter the number of strings:
+3
+Enter the Strings:
+hai
+good
+morning
+Before sort:
+[hai, good, morning]
+After sort:
+[good, hai, morning]

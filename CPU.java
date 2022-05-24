@@ -43,3 +43,18 @@ class CPU
 		
 	}
 }
+
+output
+------
+
+Enter the details :
+Price of CPU: 50000
+Enter number of cores: 5
+Enter processor manufacturer: Dell
+Enter RAM memory: 128
+Enter RAM manufacturer: Dell
+Price = 50000.0
+Cores = 5
+Manufacturer = Dell
+Memory = 128
+Ram Manufacturer = Dell

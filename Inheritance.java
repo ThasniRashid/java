@@ -97,3 +97,102 @@ p.show();
 }
 }
 }
+
+output
+------
+
+Enter the number of Teachers
+
+2
+enter the name of teacher
+
+Thasni
+enter the gender of teacher
+
+female
+enter the address of teacher
+
+puthiyaveettil
+enter the age of teacher
+
+22
+enter the emp_id of teacher
+
+123
+enter the company name of teacher
+
+Sngist
+enter the qualification of teacher
+
+MCA
+enter the salary of teacher
+
+45000
+Enter the id
+
+12
+Enter the subject
+
+Java
+Enter the department
+
+MCA
+enter the name of teacher
+
+Amalendu
+enter the gender of teacher
+
+Female
+enter the address of teacher
+
+Kalappattu
+enter the age of teacher
+
+23
+enter the emp_id of teacher
+
+156
+enter the company name of teacher
+
+Sngist
+enter the qualification of teacher
+
+B.com
+enter the salary of teacher
+
+50000
+Enter the id
+
+56
+Enter the subject
+
+Business
+Enter the department
+
+MBA
+Details of Persons
+
+name:Thasni
+address: puthiyaveettil
+gender: female
+age: 22
+emp_id:123
+cmp_name: Sngist
+qualification: MCA
+salary: 45000
+
+subject:Java
+dept: MCA
+teacher_id: 12
+name:Amalendu
+address: Kalappattu
+gender: Female
+age: 23
+emp_id:156
+cmp_name: Sngist
+qualification: B.com
+salary: 50000
+
+subject:Business
+dept: MBA
+teacher_id: 56
