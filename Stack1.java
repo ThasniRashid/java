@@ -87,3 +87,21 @@ public class Stack1
 		System.out.println("top element of s3:\n"+ s3.top());
 	}
 }
+
+output
+------
+
+s1 after pushing 10, 20 and 30 :
+10->20->30
+s1 after pop :
+10->20
+
+s2 after pushing 3 elements :
+hello->world->java
+s2 after pushing 4th element :
+Stack Overflow
+
+s3 after pushing 2 elements :
+100.0->200.0
+top element of s3:
+200.0
